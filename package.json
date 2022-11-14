@@ -1,0 +1,22 @@
+{
+  "name": "lab1-test",
+  "version": "1.0.0",
+  "description": "lab-1-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rostikkkkk/lab1-test.git"
+  },
+  "keywords": [
+    "lab"
+  ],
+  "author": "rostikkkkk, papawahlen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rostikkkkk/lab1-test/issues"
+  },
+  "homepage": "https://github.com/rostikkkkk/lab1-test#readme"
+}
