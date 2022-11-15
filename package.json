@@ -9,7 +9,8 @@
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier --ignore-path .gitignore --check .",
-    "format:fix": "prettier --ignore-path .gitignore --write ."
+    "format:fix": "prettier --ignore-path .gitignore --write .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "eslint-plugin-n": "^15.5.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sonarjs": "^0.16.0",
+    "husky": "^8.0.2",
     "prettier": "2.7.1"
   }
 }
