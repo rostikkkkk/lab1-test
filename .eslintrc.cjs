@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   env: {
     node: true,
     es2021: true,
@@ -12,4 +12,3 @@ const config = {
   plugins: ['sonarjs'],
   rules: {},
 }
-export default config
