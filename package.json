@@ -1,0 +1,39 @@
+{
+  "name": "lab1-test",
+  "version": "1.0.0",
+  "description": "lab-1-test",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier --ignore-path .gitignore --check .",
+    "format:fix": "prettier --ignore-path .gitignore --write .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rostikkkkk/lab1-test.git"
+  },
+  "keywords": [
+    "lab"
+  ],
+  "author": "rostikkkkk, papawahlen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rostikkkkk/lab1-test/issues"
+  },
+  "homepage": "https://github.com/rostikkkkk/lab1-test#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-sonarjs": "^0.16.0",
+    "husky": "^8.0.2",
+    "prettier": "2.7.1"
+  }
+}
